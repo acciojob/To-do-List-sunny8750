@@ -10,5 +10,5 @@ document.querySelector('#addTodoBtn').onclick = function(){
                     ${document.querySelector('#newTodoInput').value}
               
         `;
+		}
     }
-}
