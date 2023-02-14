@@ -7,14 +7,8 @@ document.querySelector('#addTodoBtn').onclick = function(){
 
     else{
         document.querySelector('#todoList').innerHTML += `
-            <div class="task">
-                <span id="taskname">
                     ${document.querySelector('#newTodoInput').value}
-                </span>
-                <button class="delete">
-                    <i class="far fa-trash-alt"></i>
-                </button>
-            </div>
+              
         `;
     }
 }
